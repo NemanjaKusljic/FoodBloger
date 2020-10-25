@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FoodBlogger</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__logo">
+            <img class="header__logo__img" src="assets/Logo.svg" alt="Food logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__links">
+                <li><a class="nav__link" href="#">Home</a></li>
+                <li><a class="nav__link" href="#">Chef Inspiration</a></li>
+                <li><a class="nav__link" href="#">Recipes</a></li>
+                <li><a class="nav__link" href="#">Contact</a></li>
+            </ul>
+
+            <div class="header__search">
+                <input class="header__search__input hidden" type="text"
+                    placeholder="Search for recipes and blog posts...">
+                <div class="header__search__icon">
+                    <img src="assets/desktop/search-icon.svg" alt="Search">
+                </div>
+            </div>
+            <div class="burger">
+                <div class="line__top"></div>
+                <div class="line__middle"></div>
+                <div class="line__bottom"></div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="hero">
+        <div class="hero__wrapper">
+            <div class="hero__content">
+                <h1 class="hero__heading">It's time for Cooking!</h1>
+                <p class="hero__text">Do you want to get something delicious,
+                    special and healthy? We are sincerely for your service.<br>
+                    Welcome your arrival!
+                </p>
+                <button class="hero__button">Go to recipes</button>
+            </div>
+        </div>
+    </section>
+    <section class="tabs">
+        <h2 class="tabs__header">We offer you Best & Delicious food</h2>
+        <p class="tabs__subheading">Creative social proof finders paradigm shift strategy innovator</p>
+        <div class="tabs__nav">
+            <div class="tabs__item" data-key="0">1. Breakfast</div>
+            <div class="tabs__item" data-key="1">2. Lunch</div>
+            <div class="tabs__item" data-key="2">3. Dinner</div>
+        </div>
+        <div class="tabs__content">
+            <div class="tabs__item__content meal meal--breakfast" data-key="0">
+                <div class="tabs__text">
+                    <h3 class="tabs__text__heading">Our best Breakfast recipes</h3>
+                    <p class="tabs__text__para">Breakfast is the most important meal of the day; choose from homemade
+                        waffles, granola, corned beef hash, pancakes, omelets or cinnamon buns.</p>
+                    <p class="tabs__text__para">Jump start your day with these top-rated breakfast recipes. Whether it's
+                        something savory or a little sweet, we've got you covered with this nourishing round up.</p>
+                        <button class="hero__button">Go to recipes</button>
+                </div>
+            </div>
+            <div class="tabs__item__content meal meal--lunch" data-key="1">
+                <div class="tabs__text">
+                    <h3 class="tabs__text__heading">Our best Lunch recipes</h3>
+                    <p class="tabs__text__para">Breakfast is the most important meal of the day; choose from homemade
+                        waffles, granola, corned beef hash, pancakes, omelets or cinnamon buns.</p>
+                    <p class="tabs__text__para">Jump start your day with these top-rated breakfast recipes. Whether it's
+                        something savory or a little sweet, we've got you covered with this nourishing round up.</p>
+                        <button class="hero__button">Go to recipes</button>
+                </div>
+            </div>
+            <div class="tabs__item__content meal meal--dinner" data-key="2">
+                <div class="tabs__text">
+                    <h3 class="tabs__text__heading">Our best Dinner recipes</h3>
+                    <p class="tabs__text__para">Breakfast is the most important meal of the day; choose from homemade
+                        waffles, granola, corned beef hash, pancakes, omelets or cinnamon buns.</p>
+                    <p class="tabs__text__para">Jump start your day with these top-rated breakfast recipes. Whether it's
+                        something savory or a little sweet, we've got you covered with this nourishing round up.</p>
+                        <button class="hero__button">Go to recipes</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recipes">
+        <div class="recipes__content">
+            <h3 class="recipes__heading">Our latest recipes</h3>
+            <div class="recipes__link">
+                <a href="#">Show all recipes</a>
+            </div>
+    
+            <div class="cards__wrapper">
+                <article class="card">
+                    <img src="assets/desktop/recipe1.png" alt="recipe" class="card__img">
+                    <div class="card__body">
+                        <p class="card__category">Snacks</p>
+                        <p class="card__title">Spanish tortilla</p>
+                        <div class="card__footer">
+                            <div class="card__footer__time">
+                                <img src="assets/desktop/clock-icon.svg" alt="time">
+                                <span>20 - 30 min</span>
+                            </div>
+                            <div class="card__footer__comments">
+                                <span>12</span>
+                                <img src="assets/desktop/comment-icon.svg" alt="comments">
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="overlay__text">
+                        <p class="overlay__text__top">Start cooking</p>
+                        <p class="overlay__text__bottom">Check other<br> recipes</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <span class="card__trending">Trending</span>
+                    <img src="assets/desktop/recipe2.png" alt="recipe" class="card__img">
+                    <div class="card__body">
+                        <p class="card__category">Snacks</p>
+                        <p class="card__title">Spanish tortilla</p>
+                        <div class="card__footer">
+                            <div class="card__footer__time">
+                                <img src="assets/desktop/clock-icon.svg" alt="time">
+                                <span>20 - 30 min</span>
+                            </div>
+                            <div class="card__footer__comments">
+                                <span>12</span>
+                                <img src="assets/desktop/comment-icon.svg" alt="comments">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay__text">
+                        <p class="overlay__text__top">Start cooking</p>
+                        <p class="overlay__text__bottom">Check other<br> recipes</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/desktop/recipe3.png" alt="recipe" class="card__img">
+                    <div class="card__body">
+                        <p class="card__category">Snacks</p>
+                        <p class="card__title">Spanish tortilla</p>
+                        <div class="card__footer">
+                            <div class="card__footer__time">
+                                <img src="assets/desktop/clock-icon.svg" alt="time">
+                                <span>20 - 30 min</span>
+                            </div>
+                            <div class="card__footer__comments">
+                                <span>12</span>
+                                <img src="assets/desktop/comment-icon.svg" alt="comments">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay__text">
+                        <p class="overlay__text__top">Start cooking</p>
+                        <p class="overlay__text__bottom">Check other<br> recipes</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/desktop/img.png" alt="recipe" class="card__img">
+                    <div class="card__body">
+                        <p class="card__category">Snacks</p>
+                        <p class="card__title">Spanish tortilla</p>
+                        <div class="card__footer">
+                            <div class="card__footer__time">
+                                <img src="assets/desktop/clock-icon.svg" alt="time">
+                                <span>20 - 30 min</span>
+                            </div>
+                            <div class="card__footer__comments">
+                                <span>12</span>
+                                <img src="assets/desktop/comment-icon.svg" alt="comments">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay__text">
+                        <p class="overlay__text__top">Start cooking</p>
+                        <p class="overlay__text__bottom">Check other<br> recipes</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="recipe">
+        <div class="recipe__content">
+            <div class="recipe__popular">Popular this week</div>
+            <h3 class="recipe__heading">Hummus with Spiced Summer Squash and Lamb </h3>
+            <p class="recipe__text">If you're making this hummus recipe for funky crowd, serve all the toppings in
+                separate bowls and let people help themselfs.
+                Lots of toasted pita for scooping up everything is nonnegotiable.
+            </p>
+            <h4 class="recipe__subheading">Ingredients</h4>
+            <div class="recipe__lists">
+                <div class="ingredients">
+                    <h5 class="ingredients__heading">Lamb & Assembly</h5>
+                    <ul class="ingredients__list">
+                        <li class="ingredients__item">- 2 tsp. kosher salt</li>
+                        <li class="ingredients__item">- 1<span class="num">1</span>/<span class="den">2</span> ground
+                            coriander</li>
+                        <li class="ingredients__item">- 1<span class="num">1</span>/<span class="den">7</span> ground
+                            cumir</li>
+                        <li class="ingredients__item">- <span class="num">1</span>/<span class="den">4</span> tsp.
+                            crushed red pepper flakes</li>
+                        <li class="ingredients__item">- 2 tsp. extra virgin olive oil divided</li>
+                    </ul>
+                </div>
+                <div class="ingredients">
+                    <h5 class="ingredients__heading">Hummus</h5>
+                    <ul class="ingredients__list">
+                        <li class="ingredients__item">- 215.5-oz cans chickpeas, rinsed</li>
+                        <li class="ingredients__item">- 1 garlic clove, coarsely chopped</li>
+                        <li class="ingredients__item">- <span class="num">1</span>/<span class="den">2</span> cup tahini
+                        </li>
+                        <li class="ingredients__item">- 3 Tbsp. fresh lemon juice</li>
+                        <li class="ingredients__item">- 1<span class="num">1</span>/<span class="den">4</span> tsp.
+                            kosher salt</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="hero__button top">Read full recipe</button>
+        </div>
+    </section>
+    <section class="recipe__partners">
+        <div class="recipe__partners__img">
+            <img  src="assets/desktop/1.svg" alt="partner logo">
+        </div>
+        <div class="recipe__partners__img">
+            <img  src="assets/desktop/2.svg" alt="partner logo">
+        </div>
+        <div class="recipe__partners__img">
+            <img  src="assets/desktop/3.svg" alt="partner logo">
+        </div>
+        <div class="recipe__partners__img">
+            <img  src="assets/desktop/4.svg" alt="partner logo">
+        </div>
+        <div class="recipe__partners__img">
+            <img  src="assets/desktop/5.svg" alt="partner logo">
+        </div>
+    
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="subscribe">
+                <h6 class="subscribe__title">Subscribe to our Newsletters</h6>
+                <form action="#" method="POST" class="subscribe__form">
+                    <input class="subscribe__input" type="text" placeholder="Email address">
+                    <button type="submit" class="hero__button">Subscribe</button>
+                </form>
+                <div class="subscribe__info">We will not share your informations with anyone.</div>
+            </div>
+            <div class="footer__contact">
+                <div class="footer__logo"><img src="assets/Logo.svg" alt="footer logo"></div>
+                <p class="footer__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non iure laudantium eius modi dicta.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad maiores deserunt necessitatibus soluta quam 
+                    nostrum.</p>
+                <div class="footer__nums">
+                    <span class="footer__nums__tel">T: (+61) 979 185 942</span>
+                    <span class="footer__nums__mail">E: contact@foodblogger.com</span>
+                </div>
+            </div>
+            <div class="footer__links">
+                <h6>Popular Recipes</h6>
+                <ul>
+                    <li><a class="footer__link" href="#">Beef Medalion</a></li>
+                    <li><a class="footer__link" href="#">Penne Arabiata</a></li>
+                    <li><a class="footer__link" href="#">Sweet & Chicken</a></li>
+                    <li><a class="footer__link" href="#">Thai Chicken Curry</a></li>
+                    <li><a class="footer__link" href="#">Fish Curry</a></li>
+                </ul>
+            </div>
+            <div class="footer__links">
+                <h6>Usefull Links</h6>
+                <ul>
+                    <li><a class="footer__link" href="#">Home</a></li>
+                    <li><a class="footer__link" href="#">Chef Inspirations</a></li>
+                    <li><a class="footer__link" href="#">Recipes</a></li>
+                    <li><a class="footer__link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">&copy; Copyright 2019 FoodBlogger. All rights reserved</div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
